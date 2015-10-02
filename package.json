@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.6.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "1.2.5",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "1.2.0",
+    "gulp-run": "^1.6.8",
+    "gulp-useref": "1.2.0",
+    "gulp-watch": "^4.2.4",
+    "lazypipe": "^0.2.2"
+  },
+  "scripts": {
+    "update": "sudo npm install && bower install"
+  }
+}

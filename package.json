@@ -12,11 +12,14 @@
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "1.2.0",
     "gulp-run": "^1.6.8",
-    "gulp-useref": "1.2.0",
+    "gulp-useref": "^2.0.0",
     "gulp-watch": "^4.2.4",
-    "lazypipe": "^0.2.2"
+    "lazypipe": "^0.2.2",
+    "mocha": "*",
+    "mock-gulp-dest": "^0.1.1"
   },
   "scripts": {
+    "test": "mocha",
     "update": "sudo npm install && bower install"
   }
 }
